@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Suskes Feed</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">
+            <img class="logo" src="img\logo.png">
+        </a>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a class="backbut" href="#">Register</a></li>
+            <li><a class="backbut" href="#">Sign In</a></li>
+        </ul>
+    </nav>
+    <img class="dev" src="img\alat.png">
+    <div class="border">
+        <p>DATE</p>
+        <p>
+            <select name="date" id="tgl">
+                <option value="" disabled selected>Select your option</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+                <option value="Sunday">Sunday</option>
+            </select>
+        </p>
+        <button class="done2"></button>
+        <p>TIME</p>
+        <p><input type="time" placeholder="timer" id="timer"></p>
+        <button class="done2" onclick="notifTimer()" value="Kirim"></button>
+        <p>Done</p>       
+        <img class="date" src="img\kalender.png">
+    </div>
+    <div class="border2">
+        <p>SCHEDULE</p>
+        <p id="time1">SET SCHEDULE</p>
+        <p id="time2">SET SCHEDULE</p>
+        <p id="time3">SET SCHEDULE</p>
+    </div>
+    <div class="feed">
+        <p>Feed Now</p>
+        <img class="feeder" onclick="notifFeed()" src="img\feede.png">
+    </div>
+    <div class="tag">
+        <p>Made by Sukses Team</p>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>

@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Proxima Nova';
+    background-color: #F9EBC8;
+}
+
+nav{
+    background: #DAE5D0;
+    height: 150px;
+    width: 100%;
+}
+
+img.logo{
+    width: 270px;
+    height: 150px;
+    left: 40px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+    margin-top: 35px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 40px;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 32px;
+    border-radius: 5px;
+    padding: 8px 28px;
+}
+
+a.backbut{
+    background-color: #A0BCC2;
+}
+
+div.tulisan{
+    position: absolute;
+    width: 523px;
+    left: 120px;
+    top: 240px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: justify;
+}
+
+img.cat{
+    left: 750px;
+    top: 52px;
+    position: relative;
+}
+
+div.devices{
+    position: absolute;
+    width: 111px;
+    height: 19px;
+    left: 700px;
+    top: 553px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.017em;
+}
+
+img.dev{
+    position: relative;
+    left: 130px;
+    top: 170px;
+    width: 185px;
+    height: 245px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.shadowBtn{
+    width: 161px;
+    height: 231px;
+    left: 169px;
+    top: 47px;
+    margin: 55px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D3C49D;
+    border-radius: 20px;
+    background-color: #D3C49D;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    font-size: 50px;
+}
+
+.shadowBtn p:nth-child(1){
+    position: inherit;
+    top: 65px;
+    font-size: 25px;
+}
+
+.shadowBtn:hover{
+    background-color: white;
+    color: black;
+    transition: 1s ease;
+    
+}
+
+.tag{
+    position: relative;
+    background-color: rgb(254, 251, 231);
+    height: 60px;
+    width: 100%;
+    top: 90px;
+}
+
+.tag p:nth-child(1){
+    display: flex;
+    line-height:39px;
+    position: absolute;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 35px;
+    left: 635px;
+    top: 15px;
+    color: black;
+    letter-spacing: -1px;
+}
